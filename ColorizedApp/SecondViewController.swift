@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class SecondViewController: UIViewController {
     @IBOutlet weak var colorView: UIView!
     
     @IBOutlet weak var redSlider: UISlider!
