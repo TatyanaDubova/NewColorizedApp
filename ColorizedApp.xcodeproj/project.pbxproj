@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BE145002AE0045F00EAC8CE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE144FF2AE0045F00EAC8CE /* FirstViewController.swift */; };
 		7BF169ED2AC6B99A00AC34FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF169EC2AC6B99A00AC34FB /* AppDelegate.swift */; };
 		7BF169EF2AC6B99A00AC34FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF169EE2AC6B99A00AC34FB /* SceneDelegate.swift */; };
-		7BF169F12AC6B99A00AC34FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF169F02AC6B99A00AC34FB /* ViewController.swift */; };
+		7BF169F12AC6B99A00AC34FB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF169F02AC6B99A00AC34FB /* SecondViewController.swift */; };
 		7BF169F42AC6B99A00AC34FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF169F22AC6B99A00AC34FB /* Main.storyboard */; };
 		7BF169F62AC6B99A00AC34FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF169F52AC6B99A00AC34FB /* Assets.xcassets */; };
 		7BF169F92AC6B99A00AC34FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF169F72AC6B99A00AC34FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BE144FF2AE0045F00EAC8CE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		7BF169E92AC6B99A00AC34FB /* ColorizedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF169EC2AC6B99A00AC34FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BF169EE2AC6B99A00AC34FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7BF169F02AC6B99A00AC34FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BF169F02AC6B99A00AC34FB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7BF169F32AC6B99A00AC34FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BF169F52AC6B99A00AC34FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF169F82AC6B99A00AC34FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +60,8 @@
 			children = (
 				7BF169EC2AC6B99A00AC34FB /* AppDelegate.swift */,
 				7BF169EE2AC6B99A00AC34FB /* SceneDelegate.swift */,
-				7BF169F02AC6B99A00AC34FB /* ViewController.swift */,
+				7BE144FF2AE0045F00EAC8CE /* FirstViewController.swift */,
+				7BF169F02AC6B99A00AC34FB /* SecondViewController.swift */,
 				7BF169F22AC6B99A00AC34FB /* Main.storyboard */,
 				7BF169F52AC6B99A00AC34FB /* Assets.xcassets */,
 				7BF169F72AC6B99A00AC34FB /* LaunchScreen.storyboard */,
@@ -95,7 +98,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					7BF169E82AC6B99A00AC34FB = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF169F12AC6B99A00AC34FB /* ViewController.swift in Sources */,
+				7BF169F12AC6B99A00AC34FB /* SecondViewController.swift in Sources */,
 				7BF169ED2AC6B99A00AC34FB /* AppDelegate.swift in Sources */,
 				7BF169EF2AC6B99A00AC34FB /* SceneDelegate.swift in Sources */,
+				7BE145002AE0045F00EAC8CE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
